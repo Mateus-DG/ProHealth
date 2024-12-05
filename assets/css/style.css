@@ -352,3 +352,24 @@ nav ul li a {
 .mantenha {
     margin-right: 150px;
 }
+@media(width<500px){
+    header {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+    }
+    #search {
+        width: 350px;
+        height: 40px;
+    }
+    .head{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .final{
+        display: none;
+    }
+
+}
